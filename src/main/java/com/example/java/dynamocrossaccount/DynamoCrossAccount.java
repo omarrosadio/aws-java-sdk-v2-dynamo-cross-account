@@ -24,7 +24,7 @@ public class DynamoCrossAccount {
 
 	public static void main(String[] args) {
 		/*Change this variables according to the role created*/
-		String roleARN = "arn:aws:iam::<ACCOUNT_B>:role/<ROLE_NAME>";
+		String roleARN = "arn:aws:iam::<ACCOUNT_A>:role/<ROLE_NAME>";
 		String roleSessionName = "DynamoCrossAccount";
 		Region region = Region.US_EAST_1;
 
